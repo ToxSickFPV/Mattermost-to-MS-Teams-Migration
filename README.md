@@ -20,5 +20,8 @@ This script will migrate Mattermost chat channels to MS Teams. The Migration con
    - users &rarr; export_users.csv
 2. Export the `data` folder from Mattermost and place it in the `mm_data` folder of this project (folder with all the images and files sent over Mattermost)
 
+### Edit teams.py
+Edit the `teams.py` file according to the file description. This will allow you to define your MS Teams team structure.
+
 ### Enter Graph API Credentials
 When starting the script you get prompted for the tenant id / client id / client secret for the Graph API.
