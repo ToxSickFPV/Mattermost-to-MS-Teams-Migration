@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mattermost-migration"
+version = "0.1.0"
+description = ""
+authors = ["Pascal Straub <pascal.straub@it-processing.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+requests = "^2.31.0"
+msgraph-sdk = "^1.0.0"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
